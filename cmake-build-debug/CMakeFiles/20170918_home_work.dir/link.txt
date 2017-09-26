@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/20170918_home_work.dir/main.c.o CMakeFiles/20170918_home_work.dir/math_func.c.o  -o 20170918_home_work.exe -Wl,--out-implib,lib20170918_home_work.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

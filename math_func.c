@@ -6,7 +6,7 @@
 
 unsigned long fact(unsigned long n) {
     unsigned long res = 1;
-    for (unsigned long i = 1; i < n; i+=1) {
+    for (unsigned long i = 1; i <= n; i+=1) {
         res *= i;
     }
     return res;
@@ -17,10 +17,15 @@ unsigned long fibo(unsigned long n) {
         return 0;
     }
 
-    else if (n == 1) {
-        return 1;
+    unsigned long a = 0;
+    unsigned long b = 1;
+    unsigned long c = 0;
+    for (unsigned long i = 1; i<n; i += 1) {
+        c = b;
+        b += a;
+        a = c;
     }
-    return fibo(n-1) + fibo (n-2);
+    return b;
 }
 
 unsigned long int_sqrt(unsigned long n) {

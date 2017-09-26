@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work/main.c
+err.h
+-
+stdlib.h
+-
+stdio.h
+-
+math_func.h
+/cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work/math_func.h
+
+/cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work/math_func.c
+stdlib.h
+-
+math_func.h
+/cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work/math_func.h
+
+/cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work/math_func.h
+

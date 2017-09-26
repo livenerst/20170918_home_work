@@ -1,1 +1,4 @@
-CMakeLists.txt not found in C:\Users\Joffrey Chambon\Documents\GitHub\20170918_home_work
+"C:\Users\Joffrey Chambon\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Joffrey Chambon/Documents/GitHub/20170918_home_work/cmake-build-debug
