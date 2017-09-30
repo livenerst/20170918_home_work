@@ -3,6 +3,7 @@
 //
 # include <stdlib.h>
 #include "math_func.h"
+#include "math.h"
 
 unsigned long fact(unsigned long n) {
     unsigned long res = 1;
@@ -42,13 +43,24 @@ unsigned long digit_number(unsigned long n) {
 }
 
 unsigned long binary_digit_number(unsigned long n) {
-    // FIX ME
+    unsigned long res = 0;
+    while (n != 0) {
+        n /= 2;
+        res += 1;
+    }
+    return res;
 }
 
 unsigned long power_of_2(unsigned long n) {
-    // FIX ME
+    return (unsigned long) pow(2, (double) n);
 }
 
 unsigned long divisor_sum(unsigned long n) {
-    // FIX ME
+    unsigned long res = 1;
+    for (int i = 2; i <= n/2; i++) {
+        if (n % i == 0) {
+            res += i;
+        }
+    }
+    return res;
 }
