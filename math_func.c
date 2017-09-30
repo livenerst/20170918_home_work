@@ -33,7 +33,12 @@ unsigned long int_sqrt(unsigned long n) {
 }
 
 unsigned long digit_number(unsigned long n) {
-    // FIX ME
+    unsigned long res = 0;
+    while (n != 0) {
+        n /= 10;
+        res += 1;
+    }
+    return res;
 }
 
 unsigned long binary_digit_number(unsigned long n) {
