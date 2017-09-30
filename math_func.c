@@ -30,7 +30,7 @@ unsigned long fibo(unsigned long n) {
 }
 
 unsigned long int_sqrt(unsigned long n) {
-    // FIX ME
+    // FIX MEh
 }
 
 unsigned long digit_number(unsigned long n) {
